@@ -11,9 +11,9 @@ from src.components.model_trainer import ModelTrainer, ModelTrainerConfig
 
 @dataclass
 class DataIngestionConfig:
-    train_data_path: str = os.path.join('arctifacts', 'train.csv')
-    test_data_path: str = os.path.join('arctifacts', 'test.csv')
-    raw_data_path: str = os.path.join('arctifacts', 'data.csv')
+    train_data_path: str = os.path.join('artifacts', 'train.csv')
+    test_data_path: str = os.path.join('artifacts', 'test.csv')
+    raw_data_path: str = os.path.join('artifacts', 'data.csv')
 
 class DataIngestion:
     def __init__(self):
